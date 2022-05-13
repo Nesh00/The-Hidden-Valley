@@ -1,0 +1,55 @@
+.about--header {
+  &-img {
+    @include header--img(60vh, 100%);
+  }
+
+  &-h1 {
+    font-size: $header--mobile;
+  }
+}
+
+.about--main {
+  margin: 4rem;
+
+  &-header {
+    font-size: $sub-header--mobile;
+  }
+
+  &-img {
+    @include main--img(10rem, 100%, cover);
+  }
+}
+
+@media (min-width: $tablet) {
+  .about--header {
+    &-h1 {
+      font-size: $header--tablet;
+    }
+  }
+
+  .about--main {
+    &-header {
+      font-size: $sub-header--tablet;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .about--header {
+    &-h1 {
+      font-size: $header--desktop;
+    }
+  }
+
+  .about--main {
+    margin: 5rem 2rem;
+
+    &-header {
+      font-size: $sub-header--desktop;
+    }
+
+    &-img {
+      @include main--img(10rem, auto, cover);
+    }
+  }
+}

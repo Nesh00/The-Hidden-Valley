@@ -1,0 +1,271 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap);
+.logo {
+  height: 5rem;
+}
+
+.home--header {
+  height: 70vh;
+  width: 100%;
+}
+.home--header-img {
+  height: 70vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home--header-h1 {
+  font-size: 1.8rem;
+}
+
+.home--main {
+  margin: 4rem;
+}
+.home--main-header {
+  font-size: 1.6rem;
+}
+.home--main__content-img {
+  height: 15rem;
+  width: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.home--main__content-header {
+  font-weight: 600;
+}
+.home--main__content-paragraph {
+  font-weight: 500;
+}
+
+.home--footer {
+  padding: 2rem;
+}
+
+@media (min-width: 36em) {
+  .home--header-h1 {
+    font-size: 2.5rem;
+  }
+
+  .home--main-header {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 56em) {
+  .home--header {
+    height: 75vh;
+    width: 100%;
+  }
+  .home--header-img {
+    height: inherit;
+    width: inherit;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .home--header-h1 {
+    font-size: 3.5rem;
+  }
+
+  .home--main {
+    margin: 5rem;
+  }
+  .home--main-header {
+    font-size: 2.8rem;
+  }
+  .home--main__content-img {
+    height: 17rem;
+    width: 28rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    transform: scale(1.02);
+    transition: transform 0.4s;
+  }
+  .home--main__content-img:hover {
+    transform: scale(1);
+  }
+
+  .home--footer {
+    padding: 2rem 12.5rem;
+  }
+}
+.about--header-img {
+  height: 60vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about--header-h1 {
+  font-size: 1.8rem;
+}
+
+.about--main {
+  margin: 4rem;
+}
+.about--main-header {
+  font-size: 1.6rem;
+}
+.about--main-img {
+  height: 10rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 36em) {
+  .about--header-h1 {
+    font-size: 2.5rem;
+  }
+
+  .about--main-header {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 56em) {
+  .about--header-h1 {
+    font-size: 3.5rem;
+  }
+
+  .about--main {
+    margin: 5rem 2rem;
+  }
+  .about--main-header {
+    font-size: 2.8rem;
+  }
+  .about--main-img {
+    height: 10rem;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.faqs--header-img {
+  height: 60vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.faqs--header-h1 {
+  font-size: 1.8rem;
+}
+
+@media (min-width: 36em) {
+  .faqs--header-h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 56em) {
+  .faqs--header-h1 {
+    font-size: 3.5rem;
+  }
+
+  .faqs--accordion {
+    width: 49%;
+  }
+}
+.blog--header-img {
+  height: 60vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blog--header-h1 {
+  font-size: 1.8rem;
+}
+
+.blog--main {
+  margin: 4rem;
+}
+.blog--main-header {
+  font-size: 1.6rem;
+}
+.blog--main-img {
+  height: 10rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 36em) {
+  .blog--header-h1 {
+    font-size: 2.5rem;
+  }
+
+  .blog--main-header {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 56em) {
+  .blog--header-h1 {
+    font-size: 3.5rem;
+  }
+
+  .blog--main {
+    margin: 5rem 2rem;
+  }
+  .blog--main-header {
+    font-size: 2.8rem;
+  }
+  .blog--main-img {
+    height: 15rem;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+.post--header-img {
+  height: 60vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.post--header-h1 {
+  font-size: 1.8rem;
+}
+
+.post--main {
+  margin: 4rem;
+}
+.post--main-header {
+  font-size: 1.6rem;
+}
+.post--main-img {
+  height: 10rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (min-width: 36em) {
+  .post--header-h1 {
+    font-size: 2.5rem;
+  }
+
+  .post--main-header {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 56em) {
+  .post--header-h1 {
+    font-size: 3.5rem;
+  }
+
+  .post--main {
+    margin: 5rem 2rem;
+  }
+  .post--main-header {
+    font-size: 2.8rem;
+  }
+  .post--main-img {
+    height: 10rem;
+    width: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+}

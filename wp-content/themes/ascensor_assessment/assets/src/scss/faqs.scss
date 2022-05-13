@@ -1,0 +1,29 @@
+.faqs--header {
+  &-img {
+    @include header--img(60vh, 100%);
+  }
+
+  &-h1 {
+    font-size: $header--mobile;
+  }
+}
+
+@media (min-width: $tablet) {
+  .faqs--header {
+    &-h1 {
+      font-size: $header--tablet;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .faqs--header {
+    &-h1 {
+      font-size: $header--desktop;
+    }
+  }
+
+  .faqs--accordion {
+    width: 49%;
+  }
+}

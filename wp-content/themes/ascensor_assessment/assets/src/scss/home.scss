@@ -1,0 +1,93 @@
+.logo {
+  height: 5rem;
+}
+
+.home--header {
+  height: 70vh;
+  width: 100%;
+
+  &-img {
+    @include header--img(70vh, 100%);
+  }
+
+  &-h1 {
+    font-size: $header--mobile;
+  }
+}
+
+.home--main {
+  margin: 4rem;
+
+  &-header {
+    font-size: $sub-header--mobile;
+  }
+
+  &__content-img {
+    @include main--img(15rem, 25rem, cover);
+  }
+
+  &__content-header {
+    font-weight: 600;
+  }
+
+  &__content-paragraph {
+    font-weight: 500;
+  }
+}
+
+.home--footer {
+  padding: 2rem;
+}
+
+// TABLET
+@media (min-width: $tablet) {
+  .home--header {
+    &-h1 {
+      font-size: $header--tablet;
+    }
+  }
+
+  .home--main {
+    &-header {
+      font-size: $sub-header--tablet;
+    }
+  }
+}
+
+// DESKTOP
+@media (min-width: $desktop) {
+  .home--header {
+    height: 75vh;
+    width: 100%;
+
+    &-img {
+      @include header--img(inherit, inherit);
+    }
+
+    &-h1 {
+      font-size: $header--desktop;
+    }
+  }
+
+  .home--main {
+    margin: 5rem;
+
+    &-header {
+      font-size: $sub-header--desktop;
+    }
+
+    &__content-img {
+      @include main--img(17rem, 28rem, cover);
+      transform: scale(1.02);
+      transition: transform 0.4s;
+
+      &:hover {
+        transform: scale(1);
+      }
+    }
+  }
+
+  .home--footer {
+    padding: 2rem 12.5rem;
+  }
+}

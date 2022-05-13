@@ -1,0 +1,11 @@
+@mixin header--img($height, $width) {
+  height: $height;
+  width: $width;
+  object-fit: cover;
+}
+
+@mixin main--img($height, $width, $obj-fit) {
+  height: $height;
+  width: $width;
+  object-fit: $obj-fit;
+}

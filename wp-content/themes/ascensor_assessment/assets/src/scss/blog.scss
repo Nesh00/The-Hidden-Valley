@@ -1,0 +1,55 @@
+.blog--header {
+  &-img {
+    @include header--img(60vh, 100%);
+  }
+
+  &-h1 {
+    font-size: $header--mobile;
+  }
+}
+
+.blog--main {
+  margin: 4rem;
+
+  &-header {
+    font-size: $sub-header--mobile;
+  }
+
+  &-img {
+    @include main--img(10rem, 100%, cover);
+  }
+}
+
+@media (min-width: $tablet) {
+  .blog--header {
+    &-h1 {
+      font-size: $header--tablet;
+    }
+  }
+
+  .blog--main {
+    &-header {
+      font-size: $sub-header--tablet;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .blog--header {
+    &-h1 {
+      font-size: $header--desktop;
+    }
+  }
+
+  .blog--main {
+    margin: 5rem 2rem;
+
+    &-header {
+      font-size: $sub-header--desktop;
+    }
+
+    &-img {
+      @include main--img(15rem, auto, cover);
+    }
+  }
+}
