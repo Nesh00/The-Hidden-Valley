@@ -4,6 +4,8 @@ _A custom WordPress theme created with HTML, Bootstrap 5, SCSS compiled to CSS a
 
 ---
 
+<img src="wp-content/themes/ascensor_assessment/screenshot.png" alt="screenshot" width="900" height="700"/>
+
 ## 
 
 You can find the repository on my [**GitHub**](https://github.com/Nesh00/The-Hidden-Valley) account and clone it down or just download the ZIP file.
